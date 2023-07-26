@@ -1,0 +1,118 @@
+/* body{
+    background-color: blueviolet;
+} */
+/* @media screen and (max-width: 570px) {
+    #form {
+      width: 65%;
+      margin-left:none;
+      padding:40px;
+    }
+  } */
+.mid {
+    /* border: 2px solid white; */
+    display: block;
+    width: 50%;
+    margin: 0px auto;
+    padding: 0px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 17px;
+}
+
+.enter-information {
+    /* border: 2px solid white; */
+    display: inline-block;
+    position: absolute;
+    right: 2%;
+    top: 8px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.navbar ul,
+.navbar li {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul {
+    display: block;
+    background: gray;
+    list-style: none;
+    width: 107%;
+}
+
+.navbar li {
+    float: left;
+    position: relative;
+    width: auto;
+}
+
+.navbar li {
+    float: left;
+    position: relative;
+    width: auto;
+}
+
+.navbar a {
+    background: #555555;
+    color: white;
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Baloo Bhai 2', cursive;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.25s ease;
+}
+
+.navbar li:hover a {
+    background: #34495e;
+}
+
+#subnav {
+    left: 0;
+    opacity: 0;
+    width: 200px;
+    position: absolute;
+    top: 35px;
+    visibility: hidden;
+    z-index: 1;
+}
+
+li:hover ul#subnav {
+    opacity: 1;
+    top: 60px;
+    visibility: visible;
+}
+
+#subnav li {
+    float: none;
+    width: 100%;
+}
+
+#subnav a:hover {
+    background: #ce4404;
+}
+
+#subnav a {
+    background-color: #34495e;
+}
+
+.btn {
+    margin: 0px;
+    padding: 15px 15px;
+    background: rgb(205, 203, 203);
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    color: white;
+    background: #7b8083;
+}
